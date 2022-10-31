@@ -1,3 +1,5 @@
-VERSION = "0.1.0"
+VERSION = "0.1.2"
 
-AddRuntimeFile("sunny-day-theme", "colorscheme", "sunny-day.micro")
+local config = import("micro/config")
+
+config.AddRuntimeFile("sunny-day-theme", config.RTColorscheme, "sunny-day.micro")
